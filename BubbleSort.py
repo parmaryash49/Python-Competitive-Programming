@@ -10,7 +10,7 @@ for i in range(0,n):
 
 print("You have entered following elements:")
 for i in arr:
-    print(i)
+    print(f"enter elemet here:{i}")
 
 for i in range(n):
     for j in range(n-i-1):
@@ -19,4 +19,5 @@ for i in range(n):
 
 print("After Bubble Sorting:")
 for i in arr:
-    print(i)
+#     print(i)
+print(arr)
